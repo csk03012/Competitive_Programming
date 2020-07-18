@@ -8,3 +8,6 @@ print('hello_codechef')
 # coin_flip
 # laddu
 # smartphone
+
+# Date--(18-07-2020)
+# multiple of 3
