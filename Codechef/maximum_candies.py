@@ -18,7 +18,9 @@ for _ in range(int(input())):
                 ans2 = (total_cell//2)*x
             ans = ans1 + ans2
     else:
-        if total_cell % 2 == 0:
+        if m == 1 and n == 1:
+            ans = x
+        elif total_cell % 2 == 0:
             ans = (total_cell//2)*y
         else:
             ans = (total_cell//2+1)*y
